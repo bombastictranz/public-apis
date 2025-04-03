@@ -1,0 +1,14 @@
+"use strict";this.default_r_enatlquth=this.default_r_enatlquth||{};(function(_){var window=this;
+try{
+_.KC=class{constructor(){this.analyticsService=_.q(_.So);this.elementRef=_.q(_.Fe)}onClick(a){this.analyticsService.sendEventOnElementClick(this.elementRef.nativeElement,a)}};_.KC.\u0275fac=function(a){return new (a||_.KC)};_.KC.\u0275dir=_.Xe({type:_.KC,selectors:[["","cfcTrackedLink",""]],hostBindings:function(a,b){a&1&&_.P("click",function(c){return b.onClick(c)})},inputs:{"track-type":"track-type","track-name":"track-name"},standalone:!1});_.LC=class{};_.LC.\u0275fac=function(a){return new (a||_.LC)};_.LC.\u0275mod=_.We({type:_.LC});_.LC.\u0275inj=_.Yc({});
+}catch(e){_._DumpException(e)}
+try{
+_.wh("pm_page_not_found_view");
+var wRd=function(a){a&1&&(_.K(0,"li"),_.M(1,"a",9),_.L())},xRd=class{constructor(){this.welcomeUrl=_.wib.create().link().asString();this.cloudBrandName=_.hi();this.consoleDocBaseUrl=_.tc(_.bxa());this.isTpc=_.ji()}};xRd.\u0275fac=function(a){return new (a||xRd)};
+xRd.\u0275cmp=_.G({type:xRd,selectors:[["page-not-found"]],hostAttrs:[1,"cfc-flex-layout-column"],standalone:!1,decls:14,vars:5,consts:()=>["URL not found","We couldn't find what you were looking for. Try one of the links below.","\ufffd0\ufffd home",["linkText","\ufffd0\ufffd documentation"],[1,"cfc-space-first"],["cfc-list",""],["cfcTrackedLink","","track-type","errorAction","track-name","toConsole",3,"cfcRouterLink"],["cfcTrackedLink","","track-type","errorAction","track-name","toMarketing",3,
+"cfc-external-link",6,"linkText"],[4,"ngIf"],"cfc-external-link;http://developers.google.com;cfcTrackedLink;;track-type;errorAction;track-name;toDeveloperDocs;linkText;Google for Developers".split(";")],template:function(a,b){a&1&&(_.K(0,"cfc-single-panel-layout")(1,"cfc-panel-body")(2,"h2",4),_.O(3,0),_.L(),_.K(4,"p"),_.O(5,1),_.L(),_.K(6,"ul",5)(7,"li")(8,"a",6),_.O(9,2),_.L()(),_.K(10,"li")(11,"a",7),_.WA(12,3),_.L()(),_.I(13,wRd,2,0,"li",8),_.L()()());a&2&&(_.E(8),_.J("cfcRouterLink",b.welcomeUrl),
+_.E(),_.ig(b.cloudBrandName),_.jg(9),_.E(2),_.ig(b.cloudBrandName),_.jg(12),_.J("cfc-external-link",b.consoleDocBaseUrl),_.E(2),_.J("ngIf",!b.isTpc))},dependencies:[_.UA,_.KC,_.yu,_.Rw,_.qB,_.Rq,_.Wm],encapsulation:2});var yRd=class{};yRd.\u0275fac=function(a){return new (a||yRd)};yRd.\u0275mod=_.We({type:yRd});yRd.\u0275inj=_.Yc({imports:[_.XA,_.LC,_.Au,_.Sw,_.rB,_.Vw,_.cn]});var zRd=class{};zRd.\u0275fac=function(a){return new (a||zRd)};zRd.\u0275mod=_.We({type:zRd,id:"pm_page_not_found_view"});zRd.\u0275inj=_.Yc({imports:[_.ds([{path:"",component:xRd}]),yRd]});_.Mf(zRd,"pm_page_not_found_view");
+_.xh();
+}catch(e){_._DumpException(e)}
+}).call(this,this.default_r_enatlquth);
+// Google Inc.
